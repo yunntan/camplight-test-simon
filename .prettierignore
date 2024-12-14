@@ -1,0 +1,5 @@
+.prettierignore
+.env
+**/.next
+**/out
+**/build
