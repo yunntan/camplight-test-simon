@@ -46,4 +46,4 @@ Start dev server with `npm run dev`
   production ready such as a NoSQL or SQL database
 - Avatar images are stored directly in the database, again to be able to run everything locally. To scale - images would idally be uploaded onto a
   static file storage and reference only stored in the database.
-- Add testing: unit testing for server actions / utils + e2e testing for user create / edit page + root page
+- Add testing: unit testing for server actions / utils + e2e (Cypress) testing for user create / edit page + root page (user listing, pagination and user deletion)
